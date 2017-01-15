@@ -1,9 +1,5 @@
 body {
-  font-size: 18px;
-  line-height: 34px;
   font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;
-  color: #777;
-  margin-left: 0px;
 }
 
 *{
@@ -18,7 +14,6 @@ body {
   height: 60px;
   width: 60px;
 }
-
 ul a {
     color: #999;
     text-decoration: none;
@@ -31,24 +26,32 @@ ul a {
     line-height: 18px;
     float: left;
 }
-
 ul a:first-child {
   border-left: 0 none;
 }
 
-
-.home{
-  height: 300px;
+.col:not(:first-child,:last-child) {
+  padding-right:7px;
+  padding-left:7px;
 }
 
 /*main*/
-
+.home{
+  border: solid 2px black;
+  height: auto;
+  width: 100%;
+}
+#bio{
+  background-color: #34495E;
+}
+.white{
+  color: white;
+}
 .caption {
   float: right;
   float:left;
   margin-bottom: 25px;
 }
-
 .thumbnail {
   height: 150px;
   width: 150px;
@@ -65,7 +68,6 @@ ul a:first-child {
   margin-top: 8px;
   line-height: 22px;
 }
-
 #connect {
   height: 150px;
 }
@@ -78,13 +80,11 @@ ul a:first-child {
   padding: 10px;
   float: left;
 }
-
 /*contact*/
 #contact-form ul {
   margin-bottom: 20px;
   text-decoration: none;
 }
-
 #contact-form li {
   margin-bottom: 10px;
 }
