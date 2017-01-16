@@ -3,12 +3,10 @@
 
 <head>
   <title>Anna Kimtis</title>
+
+<link rel="stylesheet" type="text/css" href="assets/reset.css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
-
-<!-- loading flat UI components -->
-<link href="Flat-UI-master/dist/css/flat-ui.css" rel="stylesheet">
-<link href="Flat-UI-master/docs/assets/css/demo.css" rel="stylesheet">
 
 <!-- for glyphicons -->
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -45,58 +43,60 @@
           <a href="https://www.linkedin.com/in/annakimtis">
             <span class="fui-linkedin"></span>
           </a>
-          <a href="#">
-            <span class="fui-mail"></span>
-          </a>
       </li>
       </ul> 
     </nav>
   </header>
 
-<div class="row">
-  <div class="col-lg-3">
+<div class="row" id="intro-folio">
+  <div class="square bg img1">
+     <div class="content">
+          <div class="table">
+              <div class="table-cell">
+                <h4>Education Portfolio</h4>
+              </div>
+          </div>
+      </div>
   </div>
-  <div class="col-lg-3">
-  <img class="home" src="assets/images/girlflowers.jpg" id="bookpile">
-    <div class="row">
-      <div class="col-lg-12">
-        <h4 class="text-center">Educator</h4>
+  <div class="square bg img2">
+      <div class="content">
+          <div class="table">
+              <div class="table-cell">
+                <h4>Educational Writing<h4>
+              </div>
+          </div>
       </div>
-    </div>
-  </div> 
-  <div class="col-lg-3">
-    <div class="row">
-      <div class="mini-box">
-        <img class="home" src="assets/images/school.jpg" id="school">
-      </div>
-      <div class="mini-box">
-        <h4 class="text-center">Educator. <br> Web Developer. <br> Writer.</h4>
-      </div>
-      <div class="mini-box">
-        <img class="home" src="assets/images/webdev.jpg" id="webdev">
-      </div>
-    </div>
   </div>
-  <div class="col-lg-3">
+  <div class="square bg img3">
+      <div class="content">
+          <div class="table">
+              <div class="table-cell">
+                <h4>Web Development Projects</h4>
+              </div>
+          </div>
+      </div>
   </div>
+  <h4 class="text-center">Educator. Web Developer. Writer.</h4>
 </div>
-
+  
 <div class="row" id="bio">
   <div class="container">
  
-    <div class="col-sm-8">
-        <h3 class="white"> About </h3>
-        <p class="white">Anna has been a teacher for 7 years. She has a B.S. in Environmental Science, and an M.F.A in Creative Writing and Environment. She is currently working toward a certificate in full stack web development through Rutgers Coding Bootcamp. Her first children's book about the biology of the Chihuahuan Desert will be published in the spring of 2017. 
+    <div class="col-lg-8" class="col-md-8" class="col-sm-6">
+      <h4> About </h4>
+        <img src="assets/images/headshot.jpeg" class="thumbnail"  alt="Anna Kimtis">
+        <p>Anna has been a teacher for 7 years. She has a B.S. in Environmental Science, and an M.F.A in Creative Writing and Environment. She is currently working toward a certificate in full stack web development through Rutgers Coding Bootcamp. Her first children's book about the biology of the Chihuahuan Desert will be published in the spring of 2017. 
         </p>
-        <p class="white">
+        <p>
         Anna is a life-long learner who wishes to inspire her students to love learning. She creates innovative curriculum that prepares her students for the future by encouraging practice in design thinking and other 21st century skills. She teaches science, technology, and makerspace.
         </p>
     </div>
-    <div class="col-sm-4">
-      <h3 class="white"> Services </h3>
-      <p class="white">Web Development</p>
-      <p class="white">Content Creation</p>
-      <p class="white">Curriculum Development</p>
+    <div class="col-lg-4" class="col-md-4" class="col-sm-6">
+      <h4> Skills </h4>
+      <p>Teaching</p>
+      <p>Web Development and Coding Education</p>
+      <p>Educational Content Writing</p>
+      <p>Curriculum Development</p>
       <button class="btn btn-info">Contact Me</button>
     </div>
 
@@ -104,7 +104,7 @@
 </div>
 
 <footer>
-  <div class="col-sm-12">
+  <div class="col-lg-12" class="col-md-12" class="col-sm-0">
     <p>@Copyright 2017 Anna Kimtis</p>
   </div>
 </footer>
