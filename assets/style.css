@@ -123,12 +123,12 @@ body {
     vertical-align:bottom;
     color:white;
 }
-.table-cell h3{
+/*.table-cell h3{
     padding: 20px;
     background-color: #34495E;
     background-width: 100%;
     text-align: center;
-}
+}*/
 .bg{
     background-position:center center;
     background-repeat:no-repeat;
@@ -142,13 +142,31 @@ body {
     max-width:100%;
 }*/
 .img1{
-    background-image: url("images/girlscientist.jpg");
+    background-image: url("images/feild-science/girlscientist.jpg");
 }
 .img2{
     background-image: url('images/school.jpg');
 }
 .img3{
-    background-image: url('images/webdev.jpg')
+    background-image: url('images/webdev.jpg');
+}
+.img4{
+    background-image: url('images/maker-education/maker2.jpg');
+}
+.img5{
+    background-image: url('images/field-science/kidscientists.jpg');
+}
+.img6{
+    background-image: url('images/classroom-science/pinball.jpeg');
+}
+.img7{
+    background-image: url('images/steam-education/awe.jpg');
+}
+.img8{
+    background-image: url('images/humanities/humanities4.jpg');
+}
+.img9{
+    background-image: url('images/character-education/gingerbreadhouse.jpg');
 }
 #bio{
   background-color: #34495E;
@@ -169,7 +187,7 @@ body {
 }
 
 
-/*sidebar*/
+/*Contact*/
 
 .social {
   width: 50px;
@@ -177,9 +195,27 @@ body {
   margin-top: 8px;
   line-height: 22px;
 }
-#connect {
-  height: 150px;
+
+/* unvisited link */
+a:link {
+    color: white;
 }
+
+/* visited link */
+a:visited {
+    color: #2bb3c0;
+}
+
+/* mouse over link */
+a:hover {
+    color: #2bb3c0;
+}
+
+/* selected link */
+a:active {
+    color: #2bb3c0;
+}
+
 
 /*portfolio*/
 
@@ -188,44 +224,6 @@ body {
   width: 200px;
   padding: 10px;
   float: left;
-}
-/*contact*/
-#contact-form ul {
-  margin-bottom: 20px;
-  text-decoration: none;
-}
-#contact-form li {
-  margin-bottom: 10px;
-}
-
-label,
-input [type=text],
-input [type=email],
-textarea{
-  display: block;
-  width: 100%;
-}
-
-input [type=text],
-input [type=email],
-textarea{
-  height: 35px;
-  border: 1px solid #ddd;
-  padding: 0 10px;
-  font-size: 14px;
-}
-
-textarea {
-  height: 200px;
-}
-
-input [type=submit] {
-  background: #4aaaa5;
-  border: 0 none;
-  color: #fff;
-  font-size: 18px;
-  padding: 10px 30px;
-  cursor: pointer;
 }
 
 /*footer*/
