@@ -43,7 +43,7 @@
 </head>
 
 <body>
-
+<div class="wrapper">
 <header>
   <nav class="navbar navbar-default">
     <div class="container-fluid">
@@ -56,14 +56,10 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Work
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Education Portfolio</a></li>
-            <li><a href="#">Educational Writing</a></li>
-            <li><a href="#">Web Development Projects</a></li>
+            <li><a href="education-portfolio.html">Education Portfolio</a></li>
+            <li><a href="educational-writing.html">Educational Writing</a></li>
+            <li><a href="web-development.html">Web Development Projects</a></li>
           </ul>
-        </li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><i class="fa fa-github"></i></li>
-        <li><i class="fa fa-linkedin"></i></li>
       </ul>
     </div>
   </nav>
@@ -74,8 +70,8 @@
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Data Preserves
-                    <small>A data graphing app to help students compare ecological data</small>
+                <h1 class="page-header">App Development
+                 <!--   <br><small></small> -->
                 </h1>
             </div>
         </div>
@@ -89,14 +85,20 @@
             </div>
 
             <div class="col-md-4">
-                <h3>Project Description</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                <h3>Data Preserves</h3>
+                <p>This app helps ecology students graph and compare data sets. They will use this graph generator to find and explain trends in the data to non-scientists in the Desert Data Jam competition. This app allows quick access to graphing tools and doesn't require understanding of Excell. Developed in partnership with other full stack web developers at the Rutgers Coding Bootcamp.</p>
                 <h3>Project Details</h3>
                 <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
-                    <li>Adipiscing Elit</li>
+                    <li><a href="http://ecograph.herokuapp.com/" target="_blank" alt="github link">Data Preserves</a></li>
+                    <li><a href="https://github.com/mattRCB/EcoGrapher" target="_blank" alt="github link">GitHub Repo</a></li>
+                    <li><a href="http://asombro.org/desertdatajam.htm" target="_blank" alt="github link">Desert Data Jam</a></li>
+                </ul>
+                <h3>Technologies Used</h3>
+                <ul>
+                    <li>Highcharts</li>
+                    <li>Google Sheets API</li>
+                    <li>JQuery</li>
+                     <li>Bootstrap</li>
                 </ul>
             </div>
 
@@ -140,7 +142,9 @@
         <hr>
  </div>
     <!-- /.container -->
-        
+    <div class="push">
+    </div>
+</div> <!-- wrapper --> 
         <!-- Footer -->
 <footer>
   <div class="col-lg-12" class="col-md-12" class="col-sm-0">
