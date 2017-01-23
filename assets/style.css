@@ -204,9 +204,9 @@ p{
     background-image: url('images/field-science/kidscientists.jpg');
 }
 .img6{
-    background-image: url('images/classroom-science/pinball.jpeg');
+    background-image: url('images/steam-education/awe.jpg');
 }
-.img7{
+/*.img7{
     background-image: url('images/steam-education/awe.jpg');
 }
 .img8{
@@ -214,7 +214,7 @@ p{
 }
 .img9{
     background-image: url('images/character-education/gingerbreadhouse.jpg');
-}
+}*/
 .img10{
   background-image: url('educational-writing/one-day-in-the-desert.png');
 }
@@ -230,6 +230,7 @@ p{
 .img13{}
 .img14{}
 .img15{}
+
 #bio{
   background-color: #34495E;
   margin-top: 30px;
@@ -249,7 +250,25 @@ p{
   background-color: #2bb3c0;
 }
 
+#fillbar{
+  height: 33%;
+  background: url("images/mountains.jpg")no-repeat center center scroll; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+#quote{
+  text-align: center;
+}
+
+/*#carousel-example-generic{
+  height: 500px;
+}*/
+.item{
+  height: 400px;
+}
 /*Contact*/
 
 .social {
@@ -306,15 +325,16 @@ a:active {
  }*/
 
 /*footer*/
-.footer,
+/*.footer,
 .push {
   height: 50px;
-}
+  border: 2px solid green;
+}*/
 footer {
   background: #666;
   color: #fff;
   clear: both;
   color: #ccc;
   text-align: center;
-  margin-bottom: 0px;
+  height: 50px;
 }
