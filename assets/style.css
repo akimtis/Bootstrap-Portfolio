@@ -135,7 +135,7 @@ p{
   }
 }
 
-#intro-folio{
+#row-bottom{
  padding-bottom: 5%;
 }
 
@@ -178,12 +178,7 @@ p{
     background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
     color:#fff;
 }
-/*.content .rs{
-    width:auto;
-    height:auto;
-    max-height:90%;
-    max-width:100%;
-}*/
+
 .table-cell h3{
   background-color: #34495E;
   width: 100%;
@@ -227,9 +222,25 @@ p{
 .img12{
   background-image: url('educational-writing/peck-news.png');
 }
-.img13{}
-.img14{}
-.img15{}
+#rotateimg90{
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#portrait {
+    height: 100%;
+    width: auto;
+    align-content: center;
+}
+
+#landscape {
+    height: auto;
+    width: 100%
+}
+
 
 #bio{
   background-color: #34495E;

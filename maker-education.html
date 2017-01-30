@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Portfolio Item</title>
+    <title>Science Education</title>
   
   
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
@@ -56,9 +56,9 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Work
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Education Portfolio</a></li>
-            <li><a href="#">Educational Writing</a></li>
-            <li><a href="#">Web Development Projects</a></li>
+            <li><a href="education-portfolio.html">Education Portfolio</a></li>
+            <li><a href="educational-writing.html">Educational Writing</a></li>
+            <li><a href="web-development.html">Web Development Projects</a></li>
           </ul>
         </li>
         <li><a href="contact.html">Contact</a></li>
@@ -69,15 +69,12 @@
   </nav>
 </header>
     <!-- Page Content -->
-    <div class="container">
-
+<div class="container">
         <!-- Portfolio Item Heading -->
         <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Portfolio Item
-                    <small>Item Subheading</small>
-                </h1>
-            </div>
+          <div class="col-lg-12">
+            <h1 class="page-header">Maker Education</h1>
+          </div>
         </div>
         <!-- /.row -->
 
@@ -85,65 +82,107 @@
         <div class="row">
 
             <div class="col-md-8">
-                <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+             
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="assets/images/maker-education/maker1.jpg" alt="...">
+                  <div class="carousel-caption">
+                    <h3>We work togehter in the makerspace</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="assets/images/maker-education/makerplan.jpg" alt="...">
+                  <div class="carousel-caption">
+                    <h3>Planning out solutions with the users in mind</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="assets/images/maker-education/swing-share-timer.jpg" alt="...">
+                  <div class="carousel-caption">
+                    <h3>Students built a sand timer to help them share the swings.</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="assets/images/maker-education/zoo.jpg" alt="studying ecology on a nature hike">
+                  <div class="carousel-caption">
+                    <h3>Its easy to stay engaged whens students are busy making.</h3>
+                  </div>
+                </div>
+                <!-- <div class="item">
+                  <img src="assets/images/field-science/class_outdoors.jpg" alt="radiotelemetry">
+                  <div class="carousel-caption">
+                    <h3>Not every classroom has four walls</h3>
+                  </div>
+                </div> -->
+              </div>
+             
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div> <!-- Carousel -->
+                <!-- <img class="img-responsive" src="http://placehold.it/750x500" alt=""> -->
             </div>
 
             <div class="col-md-4">
-                <h3>Project Description</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                <h3>Project Details</h3>
+                <h3>Growing a Maker Mindset</h3>
+                <p>In the makerspace students move through process of building and testing solutions to problems called design thinking. This process helps students develop a maker mindset as they overcome setbacks by asking questions about thier process, and trying new strategies and solutions. These activites are planned to help students become flexible, creative, and perservering problem solvers.</p>
+                <!-- <h3>Project Details</h3>
                 <ul>
                     <li>Lorem Ipsum</li>
                     <li>Dolor Sit Amet</li>
                     <li>Consectetur</li>
                     <li>Adipiscing Elit</li>
-                </ul>
+                </ul> -->
             </div>
 
         </div>
         <!-- /.row -->
 
         <!-- Related Projects Row -->
-        <div class="row">
-
+        <div class="row" id="row-bottom">
             <div class="col-lg-12">
-                <h3 class="page-header">Related Projects</h3>
+                <h3 class="page-header"></h3>
             </div>
 
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
+            <div class="col-sm-4 col-xs-4">
+              <img class="img-responsive portfolio-item" src="assets/images/maker-education/maker2.jpg" alt="kids in makerspace">
+              <p>Students built a prototype for the zoo wtih the needs of the animals, zookeepers, and visitors in mind</p>
             </div>
 
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
+           <!--  <div class="col-sm-3 col-xs-6">
+              <img class="img-responsive portfolio-item" src="assets/images/maker-education/bandaid-blaster.jpg" alt="">
+              <p>A prototype for a bandaid blaster that would shoot a bandaid to whoever needs it</p>
+            </div> -->
+
+            <div class="col-sm-4 col-xs-4">
+              <img class="img-responsive portfolio-item" src="assets/images/maker-education/papertowel-picker-upper.jpg" alt="">
+              <p>We built sticky tools for collecting trash to keep the kindergarten clean.</p>
             </div>
 
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
+            <div class="col-sm-4 col-xs-4">
+              <img class="img-responsive portfolio-item" src="assets/images/maker-education/dash.jpg" alt="">
+              <p>Students used a robot to help transport bandaids and ice packs to where they were needed.</p>
             </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-        </div>
         <!-- /.row -->
-
-        <hr>
  </div>
     <!-- /.container -->
         
         <!-- Footer -->
 <footer>
-  <div class="col-lg-12" class="col-md-12" class="col-sm-0">
+  <div class="col-lg-12" class="col-md-12" class="col-sm-12">
     <p>@Copyright 2017 Anna Kimtis</p>
   </div>
 </footer>
